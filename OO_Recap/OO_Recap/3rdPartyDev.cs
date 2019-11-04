@@ -8,5 +8,6 @@ namespace OO_Recap
 {
     class _3rd_Party_Dev
     {
+        //Contact group members before working on anything
     }
 }

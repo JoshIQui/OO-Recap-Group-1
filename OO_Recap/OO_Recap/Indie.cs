@@ -8,5 +8,6 @@ namespace OO_Recap
 {
     class Indie
     {
+        //Contact group members before working on anything
     }
 }

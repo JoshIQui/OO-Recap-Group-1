@@ -8,5 +8,6 @@ namespace OO_Recap
 {
     class AAA
     {
+        //Contact group members before working on anything
     }
 }

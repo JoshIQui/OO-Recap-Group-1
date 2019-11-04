@@ -10,6 +10,7 @@ namespace OO_Recap
     {
         static void Main(string[] args)
         {
+            //Contact group members before working on anything
         }
     }
 }

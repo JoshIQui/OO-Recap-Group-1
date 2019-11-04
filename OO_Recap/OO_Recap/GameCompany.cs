@@ -8,5 +8,6 @@ namespace OO_Recap
 {
     class GameCompany
     {
+        //Contact group members before working on anything
     }
 }
