@@ -43,7 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="3rdPartyDev.cs" />
+    <Compile Include="AAA.cs" />
     <Compile Include="GameCompany.cs" />
+    <Compile Include="Indie.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
