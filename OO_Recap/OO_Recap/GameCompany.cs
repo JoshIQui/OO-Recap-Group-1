@@ -53,6 +53,7 @@ namespace OO_Recap
         public string Ceo
         {
             get { return this.ceo; }
+            set { this.ceo = value; }
         }
         public string LatestRelease
         {
