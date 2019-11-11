@@ -126,5 +126,12 @@ namespace OO_Recap
             //Returns a string to notify the user
             return String.Format(this.Name + " has advertised their products.");
         }
+        // Prints the stats of the companies
+        public void Print()
+        {
+            Console.WriteLine("Company name: {0} \n\tHQ Location: {1} \n\tCEO: {2} \n\tYear Founded: {3} " +
+                "\n\tLatest Release: {4} \n\tPlatform: {5} \n\tNumber of Sales: {6} \n\tNumber of Employees: {7}", 
+                name, location, ceo, yearFounded, latestRelease, platform, salesInYear, employees);
+        }
     }
 }

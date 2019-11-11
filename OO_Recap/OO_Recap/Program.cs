@@ -15,6 +15,13 @@ namespace OO_Recap
             Indie littleGames = new Indie("California", "Little Games", 5000, 2012, "Jimmy", "Scape", "PC", 1, 500, 20);
             _3rd_Party_Dev masonStudios = new _3rd_Party_Dev("Wisconsin", "Mason Studios", 50, 1998, "Jason", "Dog Simulator", "PC", 20, 500, "Activision");
 
+            // Print child objects
+            bigGames.Print();
+            Console.WriteLine();
+            littleGames.Print();
+            Console.WriteLine();
+            masonStudios.Print();
+
             //Uses the parent methods
             bigGames.MakeGame("E.T. 2: Electric Boogaloo");
             littleGames.HireEmployee(2);
@@ -29,6 +36,13 @@ namespace OO_Recap
             Console.WriteLine();
             masonStudios.ChangePublisher("bigGames");
             Console.WriteLine();
+
+            // Print changes to objects
+            bigGames.Print();
+            Console.WriteLine();
+            littleGames.Print();
+            Console.WriteLine();
+            masonStudios.Print();
         }
     }
 }
