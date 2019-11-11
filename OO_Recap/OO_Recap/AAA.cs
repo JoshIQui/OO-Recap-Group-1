@@ -45,6 +45,8 @@ namespace OO_Recap
         public void Liquidate(string owner)
         {
             this.Ceo = owner;
+
+            Console.WriteLine("{0} was Liquidated! The new CEO of {0} is {1}!", this.Name, this.Name, owner);
         }
     }
 }

@@ -72,12 +72,12 @@ namespace OO_Recap
 
         //Methods ---------------->
         //Changes the latest release to the parameter
-        public void MakeGame(string gameName)
+        public virtual void MakeGame(string gameName)
         {
             this.LatestRelease = gameName;
         }
         //Adds to the employee count based on the parameter
-        public string HireEmployee(int employeesHired)
+        public virtual string HireEmployee(int employeesHired)
         {
             //Only changes the amount of employees if its more than 0
             if (employeesHired >= 0)
@@ -93,7 +93,7 @@ namespace OO_Recap
             return String.Format(this.Name + " has hired " + employeesHired + " employees.");
         }
         //Removes employees based on the parameter
-        public string FireEmployee(int employeesFired)
+        public virtual string FireEmployee(int employeesFired)
         {
             //Only changes the amount of employees if there are enough to fire
             if (this.Employees >= employeesFired)
